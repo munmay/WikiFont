@@ -43,6 +43,6 @@ This minimal `demo.html` requires the font files and `font.css` of this reposito
 </html>
 ````
 
-Credit
+Credit & License
 ----
-* Munmay (WMF)
+Munmay (WMF), released under the Modified BSD License. See LICENSE.
