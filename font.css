@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'WikiFont-Regular';
+  font-family: 'WikiFont-Glyphs';
   src: url('WikiFont.eot'); /* IE9 Compat Modes */
   src: url('WikiFont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('WikiFont.woff') format('woff'), /* Modern Browsers */
@@ -38,7 +38,7 @@
 .WikiFont-sun:before {
   content: "\e008";
 }
-.WikiFont-star-circle:before {
+.WikiFont-funnel:before {
   content: "\e009";
 }
 .WikiFont-eye:before {
@@ -77,7 +77,7 @@
 .WikiFont-pin:before {
   content: "\e021";
 }
-.WikiFont-funnel:before {
+.WikiFont-share:before {
   content: "\e022";
 }
 .WikiFont-download:before {
@@ -94,6 +94,16 @@
 }
 .WikiFont-caret-down:before {
   content: "\e028";
+}
+
+
+/* EXPERIMENTS e300-301
+*/
+.WikiFont-star-circle:before {
+  content: "\e300";
+}
+.WikiFont-rocket:before {
+  content: "\e301";
 }
 
 
@@ -255,14 +265,29 @@
   content: "\e849";
 }
 
-
-/* WIKI-X e900
-*/
-.WikiFont-wikitrail:before {
-  content: "\e900";
+.WikiFont-cc:before {
+  content: "\e870";
+}
+.WikiFont-book:before {
+  content: "\e871";
+}
+.WikiFont-journal:before {
+  content: "\e872";
+}
+.WikiFont-web:before {
+  content: "\e873";
+}
+.WikiFont-news:before {
+  content: "\e874";
 }
 
 
 
-
-
+/* WIKI-X e900+
+*/
+.WikiFont-wikitrail:before {
+  content: "\e900";
+}
+.WikiFont-wikicommons:before {
+  content: "\e901";
+}
