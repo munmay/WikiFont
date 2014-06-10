@@ -1,112 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>WikiFont minimal code</title>
-    <link rel="stylesheet" href="font.css">
-  </head>
-  <style>
-  i { 
-    font-family: WikiFont-Regular; 
-    font-size: 3em;
-    font-style: normal;
-  }
-  body { margin: 2% 20% 2% 20%;}
-  span { color: #999;}
-  hr { color: grey ;}
-  </style>
-  <body>
-    WikiFont icons and associated CSS class call. List is complete as of 2014.05.21.<br />
-    <hr>
-<!-- ----------------------------- -->
-<!-- EXTRACTED FROM FONT.CSS FILE :-->
+    <link rel="stylesheet" href="wikiglyphs.css">
+</head>
+<style>
+    body {
+        margin: 2% 20% 2% 20%;
+        color: #555;
+        font-family: sans-serif;
+        font-size: 1.25em;
+    }
 
-    <i class="WikiFont-magnifying-glass"></i> <span>WikiFont-magnifying-glass</span><br />
-    <i class="WikiFont-arrow-left"></i> <span>WikiFont-arrow-left</span><br />
-    <i class="WikiFont-tick"></i> <span>WikiFont-tick</span><br />
-    <i class="WikiFont-x"></i> <span>WikiFont-x</span><br />
-    <i class="WikiFont-x-circle"></i> <span>WikiFont-x-circle</span><br />
-    <i class="WikiFont-unstar"></i> <span>WikiFont-unstar</span><br />
-    <i class="WikiFont-star"></i> <span>WikiFont-star</span><br />
-    <i class="WikiFont-sun"></i> <span>WikiFont-sun</span><br />
-    <i class="WikiFont-star-circle"></i> <span>WikiFont-star-circle</span><br />
-    <i class="WikiFont-funnel"></i> <span>WikiFont-funnel</span><br />
-    <i class="WikiFont-eye"></i> <span>WikiFont-eye</span><br />
-    <i class="WikiFont-eye-lid"></i> <span>WikiFont-eye-lid</span><br />
-    <i class="WikiFont-bookmark"></i> <span>WikiFont-bookmark</span><br />
-    <i class="WikiFont-printer"></i> <span>WikiFont-printer</span><br />
-    <i class="WikiFont-puzzle"></i> <span>WikiFont-puzzle</span><br />
-    <i class="WikiFont-clock"></i> <span>WikiFont-clock</span><br />
-    <i class="WikiFont-dice"></i> <span>WikiFont-dice</span><br />
-    <i class="WikiFont-move"></i> <span>WikiFont-move</span><br />
-    <i class="WikiFont-gear"></i> <span>WikiFont-gear</span><br />
-    <i class="WikiFont-ellipsis"></i> <span>WikiFont-ellipsis</span><br />
-    <i class="WikiFont-envelope"></i> <span>WikiFont-envelope</span><br />
-    <i class="WikiFont-pin"></i> <span>WikiFont-pin</span><br />
-    <i class="WikiFont-caret"></i> <span>WikiFont-caret</span><br />
-    <i class="WikiFont-download"></i> <span>WikiFont-download</span><br />
+    hr { color: grey; }
+
+    h1,h5 {
+        margin: .5em 0 .25em;
+    }
+    div {
+        display: inline-block;
+        color: #777;
+        border-bottom: 2px solid #eee;
+    }
+    div:hover {
+        border-bottom-color: #cef;
+    }
+    span {
+        color: #111;
+    }
+</style>
+<body>
+    <h1>WikiFont icon set example CSS class usage</h1>
+    <h5>List is complete as of 2014.06.04</h5>
+    <hr>
+    <!-- ----------------------------- -->
+    <!-- EXTRACTED FROM FONT.CSS FILE :-->
+
+
+    <h3>/* UI ELEMENTS e000-023 */</h3>
+    <div><span class="wikiglyph wikiglyph-magnifying-glass"></span> wikiglyph-magnifying-glass</div>
+    <div><span class="wikiglyph wikiglyph-arrow-left"></span> wikiglyph-arrow-left</div>
+    <div><span class="wikiglyph wikiglyph-tick"></span> wikiglyph-tick</div>
+    <div><span class="wikiglyph wikiglyph-x"></span> wikiglyph-x</div>
+    <div><span class="wikiglyph wikiglyph-x-circle"></span> wikiglyph-x-circle</div>
+    <div><span class="wikiglyph wikiglyph-unstar"></span> wikiglyph-unstar</div>
+    <div><span class="wikiglyph wikiglyph-star"></span> wikiglyph-star</div>
+    <div><span class="wikiglyph wikiglyph-star-list"></span> wikiglyph-star-list</div>
+    <div><span class="wikiglyph wikiglyph-sun"></span> wikiglyph-sun</div>
+    <div><span class="wikiglyph wikiglyph-star-circle"></span> wikiglyph-star-circle</div>
+    <div><span class="wikiglyph wikiglyph-eye"></span> wikiglyph-eye</div>
+    <div><span class="wikiglyph wikiglyph-eye-lid"></span> wikiglyph-eye-lid</div>
+    <div><span class="wikiglyph wikiglyph-bookmark"></span> wikiglyph-bookmark</div>
+    <div><span class="wikiglyph wikiglyph-printer"></span> wikiglyph-printer</div>
+    <div><span class="wikiglyph wikiglyph-puzzle"></span> wikiglyph-puzzle</div>
+    <div><span class="wikiglyph wikiglyph-clock"></span> wikiglyph-clock</div>
+    <div><span class="wikiglyph wikiglyph-dice"></span> wikiglyph-dice</div>
+    <div><span class="wikiglyph wikiglyph-move"></span> wikiglyph-move</div>
+    <div><span class="wikiglyph wikiglyph-gear"></span> wikiglyph-gear</div>
+    <div><span class="wikiglyph wikiglyph-ellipsis"></span> wikiglyph-ellipsis</div>
+    <div><span class="wikiglyph wikiglyph-envelope"></span> wikiglyph-envelope</div>
+    <div><span class="wikiglyph wikiglyph-pin"></span> wikiglyph-pin</div>
+    <div><span class="wikiglyph wikiglyph-funnel"></span> wikiglyph-funnel</div>
+    <div><span class="wikiglyph wikiglyph-download"></span> wikiglyph-download</div>
+    <div><span class="wikiglyph wikiglyph-bell"></span> wikiglyph-bell</div>
+    <div><span class="wikiglyph wikiglyph-bell-ring"></span> wikiglyph-bell-ring</div>
+    <div><span class="wikiglyph wikiglyph-caret-left"></span> wikiglyph-caret-left</div>
+    <div><span class="wikiglyph wikiglyph-caret-down"></span> wikiglyph-caret-down</div>
 
 
     <h3>/* STRIPES e040-043 */</h3>
-    <i class="WikiFont-stripe-compact"></i> <span>WikiFont-stripe-compact</span><br />
-    <i class="WikiFont-stripe-toc"></i> <span>WikiFont-stripe-toc</span><br />
-    <i class="WikiFont-stripe-expanded"></i> <span>WikiFont-stripe-expanded</span><br />
+    <div><span class="wikiglyph wikiglyph-stripe-compact"></span> wikiglyph-stripe-compact</div>
+    <div><span class="wikiglyph wikiglyph-stripe-toc"></span> wikiglyph-stripe-toc</div>
+    <div><span class="wikiglyph wikiglyph-stripe-expanded"></span> wikiglyph-stripe-expanded</div>
+
 
     <h3>/* WIKIPEDIA LOGO e400-401 */</h3>
-    <i class="WikiFont-w"></i> <span>WikiFont-w</span><br />
+    <div><span class="wikiglyph wikiglyph-w"></span> wikiglyph-w</div>
 
 
     <h3>/* UI MODERATION ELEMENTS e500-508 */</h3>
-
-    <i class="WikiFont-article"></i> <span>WikiFont-article</span><br />
-    <i class="WikiFont-article-check"></i> <span>WikiFont-article-check</span><br />
-    <i class="WikiFont-article-search"></i> <span>WikiFont-article-search</span><br />
-
-    <i class="WikiFont-trash"></i> <span>WikiFont-trash</span><br />
-    <i class="WikiFont-trash-slash"></i> <span>WikiFont-trash-slash</span><br />
-    <i class="WikiFont-block"></i> <span>WikiFont-block</span><br />
-    <i class="WikiFont-block-slash"></i> <span>WikiFont-block-slash</span><br />
-    <i class="WikiFont-flag"></i> <span>WikiFont-flag</span><br />
-    <i class="WikiFont-flag-slash"></i> <span>WikiFont-flag-slash</span><br />
-    <i class="WikiFont-play"></i> <span>WikiFont-play</span><br />
-    <i class="WikiFont-stop"></i> <span>WikiFont-stop</span><br />
-    <i class="WikiFont-lock"></i> <span>WikiFont-lock</span><br />
+    <div><span class="wikiglyph wikiglyph-article"></span> wikiglyph-article</div>
+    <div><span class="wikiglyph wikiglyph-article-check"></span> wikiglyph-article-check</div>
+    <div><span class="wikiglyph wikiglyph-article-search"></span> wikiglyph-article-search</div>
+    <div><span class="wikiglyph wikiglyph-trash"></span> wikiglyph-trash</div>
+    <div><span class="wikiglyph wikiglyph-trash-slash"></span> wikiglyph-trash-slash</div>
+    <div><span class="wikiglyph wikiglyph-block"></span> wikiglyph-block</div>
+    <div><span class="wikiglyph wikiglyph-block-slash"></span> wikiglyph-block-slash</div>
+    <div><span class="wikiglyph wikiglyph-flag"></span> wikiglyph-flag</div>
+    <div><span class="wikiglyph wikiglyph-flag-slash"></span> wikiglyph-flag-slash</div>
+    <div><span class="wikiglyph wikiglyph-play"></span> wikiglyph-play</div>
+    <div><span class="wikiglyph wikiglyph-stop"></span> wikiglyph-stop</div>
+    <div><span class="wikiglyph wikiglyph-lock"></span> wikiglyph-lock</div>
 
 
     <h3>/* USER e600-602 */</h3>
-    <i class="WikiFont-user-bust"></i> <span>WikiFont-user-bust</span><br />
-    <i class="WikiFont-user-smile"></i> <span>WikiFont-user-smile</span><br />
-    <i class="WikiFont-user-sleep"></i> <span>WikiFont-user-sleep</span><br />
+    <div><span class="wikiglyph wikiglyph-user-bust"></span> wikiglyph-user-bust</div>
+    <div><span class="wikiglyph wikiglyph-user-smile"></span> wikiglyph-user-smile</div>
+    <div><span class="wikiglyph wikiglyph-user-sleep"></span> wikiglyph-user-sleep</div>
 
 
     <h3>/* TRANSLATION e700 */</h3>
-    <i class="WikiFont-translate"></i> <span>WikiFont-translate</span><br />
+    <div><span class="wikiglyph wikiglyph-translate"></span> wikiglyph-translate</div>
 
 
     <h3>/* CONTRIBUTION e800-845 */</h3>
-    <i class="WikiFont-pencil"></i> <span>WikiFont-pencil</span><br />
-    <i class="WikiFont-pencil-revert"></i> <span>WikiFont-pencil-revert</span><br />
-    <i class="WikiFont-pencil-lock"></i> <span>WikiFont-pencil-lock</span><br />
-
-    <i class="WikiFont-speech-bubble"></i> <span>WikiFont-speech-bubble</span><br />
-    <i class="WikiFont-speech-bubbles"></i> <span>WikiFont-speech-bubbles</span><br />
-    <i class="WikiFont-speech-bubble-add"></i> <span>WikiFont-speech-bubble-add</span><br />
-    <i class="WikiFont-speech-bubble-smile"></i> <span>WikiFont-speech-bubble-smile</span><br />
-
-    <i class="WikiFont-link"></i> <span>WikiFont-link</span><br />
-
-    <i class="WikiFont-quotes"></i> <span>WikiFont-quotes</span><br />
-    <i class="WikiFont-quotes-add"></i> <span>WikiFont-quotes-add</span><br />
-
-    <i class="WikiFont-image"></i> <span>WikiFont-image</span><br />
-    <i class="WikiFont-image-lock"></i> <span>WikiFont-image-lock</span><br />
-    <i class="WikiFont-image-add"></i> <span>WikiFont-image-add</span><br />
-    <i class="WikiFont-image-main-placeholder"></i> <span>WikiFont-image-main-placeholder</span><br />
-    <i class="WikiFont-folder"></i> <span>WikiFont-folder</span><br />
-    <i class="WikiFont-folder-main-placeholder"></i> <span>WikiFont-folder-main-placeholder</span><br />
+    <div><span class="wikiglyph wikiglyph-pencil"></span> wikiglyph-pencil</div>
+    <div><span class="wikiglyph wikiglyph-pencil-revert-full"></span> wikiglyph-pencil-revert-full</div>
+    <div><span class="wikiglyph wikiglyph-pencil-revert-pt1"></span> wikiglyph-pencil-revert-pt1</div>
+    <div><span class="wikiglyph wikiglyph-pencil-revert-pt2"></span> wikiglyph-pencil-revert-pt2</div>
+    <div><span class="wikiglyph wikiglyph-pencil-lock-full"></span> wikiglyph-pencil-lock-full</div>
+    <div><span class="wikiglyph wikiglyph-pencil-lock-pt1"></span> wikiglyph-pencil-lock-pt1</div>
+    <div><span class="wikiglyph wikiglyph-pencil-lock-pt2"></span> wikiglyph-pencil-lock-pt2</div>
+    <div><span class="wikiglyph wikiglyph-speech-bubble"></span> wikiglyph-speech-bubble</div>
+    <div><span class="wikiglyph wikiglyph-speech-bubbles"></span> wikiglyph-speech-bubbles</div>
+    <div><span class="wikiglyph wikiglyph-speech-bubble-add"></span> wikiglyph-speech-bubble-add</div>
+    <div><span class="wikiglyph wikiglyph-speech-bubble-smile"></span> wikiglyph-speech-bubble-smile</div>
+    <div><span class="wikiglyph wikiglyph-link"></span> wikiglyph-link</div>
+    <div><span class="wikiglyph wikiglyph-quotes"></span> wikiglyph-quotes</div>
+    <div><span class="wikiglyph wikiglyph-quotes-add"></span> wikiglyph-quotes-add</div>
+    <div><span class="wikiglyph wikiglyph-image"></span> wikiglyph-image</div>
+    <div><span class="wikiglyph wikiglyph-image-lock-full"></span> wikiglyph-image-lock-full</div>
+    <div><span class="wikiglyph wikiglyph-image-lock-pt1"></span> wikiglyph-image-lock-pt1</div>
+    <div><span class="wikiglyph wikiglyph-image-lock-pt2"></span> wikiglyph-image-lock-pt2</div>
+    <div><span class="wikiglyph wikiglyph-image-add-full"></span> wikiglyph-image-add-full</div>
+    <div><span class="wikiglyph wikiglyph-image-add-pt1"></span> wikiglyph-image-add-pt1</div>
+    <div><span class="wikiglyph wikiglyph-image-add-pt2"></span> wikiglyph-image-add-pt2</div>
+    <div><span class="wikiglyph wikiglyph-image-main-placeholder"></span> wikiglyph-image-main-placeholder</div>
+    <div><span class="wikiglyph wikiglyph-folder"></span> wikiglyph-folder</div>
+    <div><span class="wikiglyph wikiglyph-folder-main-placeholder"></span> wikiglyph-folder-main-placeholder</div>
 
 
     <h3>/* WIKI-X e900 */</h3>
-    <i class="WikiFont-wikitrail"></i> <span>WikiFont-wikitrail</span><br />
-  </body>
+    <div><span class="wikiglyph wikiglyph-wikitrail"></span> wikiglyph-wikitrail</div>
+</body>
 </html>
