@@ -116,6 +116,12 @@
 .wikiglyph-caret-down:before {
   content: "\e028";
 }
+.wikiglyph-ribbon:before {
+  content: "\e029";
+}
+.wikiglyph-key:before {
+  content: "\e030";
+}
 
 
 /* EXPERIMENTS e300-301
@@ -138,14 +144,6 @@
 }
 .wikiglyph-stripe-expanded:before {
   content: "\e042";
-}
-
-
-/* WIKIPEDIA LOGO e400-401
-*/
-
-.wikiglyph-w:before {
-  content: "\e400";
 }
 
 
@@ -208,6 +206,9 @@
 */
 .wikiglyph-translate:before {
   content: "\e700";
+}
+.wikiglyph-keyboard:before {
+  content: "\e701";
 }
 
 
@@ -285,8 +286,10 @@
 .wikiglyph-folder-main-placeholder:before {
   content: "\e849";
 }
-
-.wikiglyph-cc:before {
+.wikiglyph-template-add:before {
+  content: "\e850";
+}
+.wikiglyph-cite:before {
   content: "\e870";
 }
 .wikiglyph-book:before {
@@ -309,8 +312,13 @@
 .wikiglyph-wikitrail:before {
   content: "\e900";
 }
-.wikiglyph-wikicommons:before {
+.wikiglyph-ccmark:before {
+  content: "\e903";
+}
+.wikiglyph-cmark:before {
   content: "\e901";
 }
-
+.wikiglyph-wmark:before {
+  content: "\e902";
+}
 
