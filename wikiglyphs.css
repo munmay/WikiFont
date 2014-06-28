@@ -122,6 +122,15 @@
 .wikiglyph-key:before {
   content: "\e030";
 }
+.wikiglyph-gallery:before {
+  content: "\e031";
+}
+.wikiglyph-map:before {
+  content: "\e032";
+}
+.wikiglyph-heart:before {
+  content: "\e033";
+}
 
 
 /* EXPERIMENTS e300-301
@@ -289,6 +298,18 @@
 .wikiglyph-template-add:before {
   content: "\e850";
 }
+.wikiglyph-pin:before {
+  content: "\e851";
+}
+.wikiglyph-pin-add:before {
+  content: "\e852";
+}
+.wikiglyph-pin-add-pt1:before {
+  content: "\e853";
+}
+.wikiglyph-pin-add-pt2:before {
+  content: "\e854";
+}
 .wikiglyph-cite:before {
   content: "\e870";
 }
@@ -304,8 +325,21 @@
 .wikiglyph-news:before {
   content: "\e874";
 }
-
-
+.wikiglyph-signature:before {
+  content: "\e875";
+}
+.wikiglyph-list-sorted:before {
+  content: "\e876";
+}
+.wikiglyph-list-unsorted:before {
+  content: "\e876";
+}
+.wikiglyph-indent-left:before {
+  content: "\e876";
+}
+.wikiglyph-indent-right:before {
+  content: "\e876";
+}
 
 /* WIKI-X e900+
 */
