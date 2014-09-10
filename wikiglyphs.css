@@ -154,9 +154,6 @@
 .wikiglyph-stripe-expanded:before {
   content: "\e042";
 }
-.wikiglyph-stripe-summary:before {
-  content: "\e043";
-}
 
 
 /* UI MODERATION ELEMENTS e500-508
@@ -171,7 +168,6 @@
 .wikiglyph-article-search:before {
   content: "\e102";
 }
-
 .wikiglyph-trash:before {
   content: "\e500";
 }
@@ -199,7 +195,9 @@
 .wikiglyph-lock:before {
   content: "\e508";
 }
-
+.wikiglyph-unlock:before {
+  content: "\e509";
+}
 
 /* USER e600-602
 */
