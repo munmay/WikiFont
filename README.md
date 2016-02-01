@@ -18,6 +18,11 @@ This minimal `demo.html` requires the font files and `wikiglyphs.css` of this re
     <meta charset="utf-8">
     <title>WikiFont minimal code</title>
     <link rel="stylesheet" href="wikiglyphs.css">
+    <style type="text/css">
+    	i {
+    		font-size: 24px;
+    	}
+    </style>
   </head>
 	<body>
 		<i class="wikiglyph wikiglyph-puzzle"></i>
