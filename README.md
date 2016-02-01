@@ -7,9 +7,9 @@ WikiFont is a project by the Wikimedia Foundation.
  * [Phabricator](https://phabricator.wikimedia.org/tag/ui-standardization/) -- icon requests
  * [Github page](https://github.com/munmay/WikiFont/) -- developement base, last code, & issues
 
-<!-- Minimal HTML code
+Minimal HTML code
 ----
-This minimal `demo.html` requires the font files and `font.css` of this repository.
+This minimal `demo.html` requires the font files and `wikiglyphs.css` of this repository.
 
 ````
 <!DOCTYPE html>
@@ -17,30 +17,23 @@ This minimal `demo.html` requires the font files and `font.css` of this reposito
   <head>
     <meta charset="utf-8">
     <title>WikiFont minimal code</title>
-    <link rel="stylesheet" href="font.css">
-    <style>
-	  i { 
-	    font-family: WikiFont-Regular; 
-	    font-size: 3em;
-	    font-style: normal;
-	  }
-	</style>
+    <link rel="stylesheet" href="wikiglyphs.css">
   </head>
 	<body>
-		<i class="WikiFont-puzzle"></i>
-		<i class="WikiFont-bookmark"></i>
-		<i class="WikiFont-wikitrail"></i>
-		<i class="WikiFont-gear"></i>
-		<i class="WikiFont-user-face-smile"></i>
-		<i class="WikiFont-pencil"></i>
-		<i class="WikiFont-image-add"></i>
-		<i class="WikiFont-link"></i>
-		<i class="WikiFont-quotes-add"></i>
-		<i class="WikiFont-speech-bubbles"></i>
+		<i class="wikiglyph wikiglyph-puzzle"></i>
+		<i class="wikiglyph wikiglyph-bookmark"></i>
+		<i class="wikiglyph wikiglyph-wikitrail"></i>
+		<i class="wikiglyph wikiglyph-gear"></i>
+		<i class="wikiglyph wikiglyph-user-face-smile"></i>
+		<i class="wikiglyph wikiglyph-pencil"></i>
+		<i class="wikiglyph wikiglyph-image-add"></i>
+		<i class="wikiglyph wikiglyph-link"></i>
+		<i class="wikiglyph wikiglyph-quotes-add"></i>
+		<i class="wikiglyph wikiglyph-speech-bubbles"></i>
 		and so on.
 	</body>
 </html>
-```` -->
+````
 
 Credit & License
 ----
