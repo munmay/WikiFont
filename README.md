@@ -4,11 +4,10 @@ Current
 ![Image of Yaktocat](./Screenshot-current.png)
 
 WikiFont is a project by the Wikimedia Foundation.
- * [MediaWiki page](https://www.mediawiki.org/wiki/Design/Wikifont) -- community's introduction
- * [Trello page](https://trello.com/c/rClBTMWE/26-wikifont-tracking) -- talks & todo
+ * [Phabricator](https://phabricator.wikimedia.org/tag/ui-standardization/) -- icon requests
  * [Github page](https://github.com/munmay/WikiFont/) -- developement base, last code, & issues
 
-Minimal HTML code
+<!-- Minimal HTML code
 ----
 This minimal `demo.html` requires the font files and `font.css` of this repository.
 
@@ -41,8 +40,8 @@ This minimal `demo.html` requires the font files and `font.css` of this reposito
 		and so on.
 	</body>
 </html>
-````
+```` -->
 
 Credit & License
 ----
-Munmay (WMF), released under the Modified BSD License. See LICENSE.
+MGalloway (WMF) / violetto released under the Modified BSD License. See LICENSE.
