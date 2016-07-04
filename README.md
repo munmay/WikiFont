@@ -4,8 +4,8 @@ Current
 ![Image of Yaktocat](./Screenshot-current.png)
 
 WikiFont is a project by the Wikimedia Foundation.
- * [Phabricator](https://phabricator.wikimedia.org/tag/ui-standardization/) -- icon requests
- * [Github page](https://github.com/munmay/WikiFont/) -- developement base, last code, & issues
+ * [Phabricator](https://phabricator.wikimedia.org/tag/ui-standardization/) – icon requests
+ * [Github page](https://github.com/wikimedia/WikiFont/) – developement base, last code & issues
 
 Minimal HTML code
 ----
